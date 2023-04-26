@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #102B40;
+}
+.TEXT
+{
+    height: 8px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #1DC9A1;
+    margin-left: 10%;
+}
+.TEXT2
+{
+    height: 8px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #1DC9A1;
+    margin-left: 2%;
+}
+.HeaderButtonDiv
+{
+    width: 150px;
+    height: 40px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #102B40;
+    margin-left: 55%;
+}
+.HeaderButtonDiv > button
+{
+    height: 30px;
+    width: 30px;
+    background-color: #1DC9A1;
+    border: #1DC9A1;
+    border-radius: 5px;
+}
+.headerButton
+{   
+    height: 30px;
+    width: 30px;
+    background-color: #1DC9A1;
+    border: #1DC9A1;
+    border-radius: 5px;
+}
+.header2
+{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.header2 > button
+{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #102B40;
+    border: #102B40;
+    margin-left: 10%;
+}
+
+.header2 > div
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 4%;
+
+}
+.header2 > div > div
+{
+    height: 8px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #1DC9A1;
+    margin-left: 5%;
+ 
+}
+.Main
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #102B40;
+  
+}
+.Main > div {
+    background-color: #102B40;
+    margin-top: 1%;
+
+}
+.Main > div > h1
+{
+    color: #1DC9A1;
+    background-color: #102B40;
+    font-size: 20px;
+  
+}
+.Main > div > p{
+    text-align: center;
+    color: white;
+    background-color: #102B40;
+    width: 300px;
+    
+}
+.Main > div > button{
+    text-align: center;
+    background-color: #1DC9A1;
+    border: #1DC9A1;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20%;
+}
+.col{ 
+    height: 200px;
+    background-color: #1DC9A1;
+    border-radius: 15px ;
+    position: relative;
+    bottom: 100px;
+}
+.row
+{
+    gap: 100px ;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1DC9A1;
+    font-weight: 900;
+    height: 200px;
+}
+.card-img-top{
+    background-color: #102B40;
+    height: 100px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.grid-container
+{    height:400px   ;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 20px);
+}
+.grid-container > div{
+    margin: auto;
+}
+.card-title1{
+    color: #1DC9A1;
+}
+.xett
+{
+    width: 100%;
+    background-color: rgb(164, 164, 164);
+    height: 0.5px;
+    margin: auto;
+}
+.card-link
+{
+    color: #1DC9A1;
+}
+.grid-container-box
+{
+    display: grid;
+    grid-gap: 1px;
+    height: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, px);
+}
+.BoxGreen
+{   
+    margin: auto;
+
+    grid-gap: 1px;
+    height:150px;
+    width:150px;
+    background-color: #1DC9A1;
+}
+.BoxGreenBlack
+{   
+    margin: auto;
+
+    height:150px;
+    width:150px;
+    background-image: linear-gradient(129deg, #1dc9a1 25%, #000000 25%, #000000 50%, #1dc9a1 50%, #1dc9a1 75%, #000000 75%, #000000 100%);
+    background-size: 25.74px 31.78px;
+}
+.grid-profile
+{
+    height:300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 20px);
+}
+
+
+.little-profile
+{  margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    height:300px;
+    width:150px;
+}
+.little-profile > div
+{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: #102B40;
+}
+.little-profile > h1
+{
+    font-size: 20px;
+    height: 10%;
+}
+
+.little-profile > p
+{
+    height: 10%;
+}
+.greentext{color: #1DC9A1;}
+
+.big-profile
+{  margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:350px;
+    width:150px;
+}
+.big-profile > div
+{
+    height:220px;
+    width:220px;
+    border-radius: 50%;
+    background-color: #102B40;
+}
+.big-profile > h1
+{
+    font-size: 20px;
+    height: 10%;
+}
+
+.big-profile > p
+{
+    height: 10%;
+}
+
+
+.LastFlex
+{
+    margin: 0;
+    background-color: #102B40;
+    height: 200px;
+    width: 114.8%;
+    margin-top: 10%;
+    margin-left: -10%;
+    display: flex;
+
+}
+.lastButtons
+{width: 200px;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+
+}
+.lastButtons > div >button
+{
+    margin-left:5%;
+    background-color:#1DC9A1;
+    border-radius: 7px;
+    border: #1DC9A1;
+    height: 30px;
+    width: 30px;
+}
+.lastButtonsText
+{
+    width: 300px;
+    display: flex;
+    margin-left:5%;
+    background-color: #102B40;
+}
+.lastButtonsText > div
+{
+    height: 3px;
+    width: 60px;
+    background-color:#1DC9A1;
+    border-radius: 7px;
+    margin-left: 4%;
+    margin-top: 20%;
+}
+.LastTexts
+{   
+    display: flex;
+    width: 700px;
+margin-left: 17%;
+margin-top: 1%;
+
+}
+.LastTexts > div
+{
+    margin-left: 7%;
+    height: 100px;
+    width: 150px;
+
+}
+.LastTexts > div > h1
+{
+font-size: 17px;
+color:#1DC9A1;
+}
+.LastTexts > div > p
+{
+    font-size: 14px;
+    color: white;
+}
